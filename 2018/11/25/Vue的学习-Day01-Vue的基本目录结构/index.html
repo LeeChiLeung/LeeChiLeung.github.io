@@ -10,7 +10,7 @@
 		
 
 <head><meta name="generator" content="Hexo 3.8.0">
-	<title>Hello World</title>
+	<title>Vue的学习_Day01_Vue的基本目录结构</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="apple-mobile-web-app-title" content="Amaze UI">
@@ -54,7 +54,7 @@
 		
 		
 			
-			<p class="page-name">当前文章&nbsp;:&nbsp;《Hello World》</p>
+			<p class="page-name">当前文章&nbsp;:&nbsp;《Vue的学习_Day01_Vue的基本目录结构》</p>
 			
 		
 	
@@ -140,8 +140,8 @@
 					
 					
 	
-		<a href="/2018/11/24/hello-world/" itemprop="url">		
-			Hello World		
+		<a href="/2018/11/25/Vue的学习-Day01-Vue的基本目录结构/" itemprop="url">		
+			Vue的学习_Day01_Vue的基本目录结构		
 		</a>
 	
 
@@ -150,9 +150,9 @@
 				<p class="am-article-meta blog-text-center">
 					<span>
 						<i class="fa fa-clock-o"></i> 
-						<a href="/2018/11/24/hello-world/" itemprop="url">
-	<time datetime="2018-11-24T10:34:58.059Z" itemprop="datePublished">
-  		2018-11-24
+						<a href="/2018/11/25/Vue的学习-Day01-Vue的基本目录结构/" itemprop="url">
+	<time datetime="2018-11-25T13:39:40.000Z" itemprop="datePublished">
+  		2018-11-25
   </time>
 </a>    
 &nbsp;
@@ -167,12 +167,59 @@
 			<div class="am-article-bd">
 				<div class="content" id="post-content">
 					
-						<p>Welcome to 我的微-博客,這天我花了數小時的時光搭建了這個微型博客,在一番折騰和各種失敗的操作之後,我終於完成搭建了.雖然還有很多不足或者尚未瞭解的. 這個博客將會記錄我的日常感悟或者收穫的美好經驗,我會每日都進行更新...</p>
+						<p>本来这个表单是打算放在上一篇文章的...</p>
+<h4>vue的基本目录结构</h4>
 <hr>
-<p>好像每一个拥有技术的人一般会在开篇写一篇关于为什么自己要建一个技术博客。就好比程序员在学一门新的语言，第一段代码总要写一个Hello World，以表示对这世界的尊重。
-我現在感悟暫時還不夠,這個先空着吧...</p>
-<h4>致敬一下,每一個程序員都要寫的程序:)</h4>
-<p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">public class HelloWorld&#123;</span><br><span class="line"></span><br><span class="line">      public static void main(String args[])&#123;</span><br><span class="line">        System.out.print("Hello World");</span><br><span class="line">     &#125; </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">目录/文件</th>
+<th style="text-align:center">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">build</td>
+<td style="text-align:center">项目构建(webpack)相关代码</td>
+</tr>
+<tr>
+<td style="text-align:center">config</td>
+<td style="text-align:center">配置目录，包括端口号等。我们初学可以使用默认的。</td>
+</tr>
+<tr>
+<td style="text-align:center">node_modules</td>
+<td style="text-align:center">npm 加载的项目依赖模块</td>
+</tr>
+<tr>
+<td style="text-align:center">src</td>
+<td style="text-align:center">这里是我们要开发的目录，基本上要做的事情都在这个目录里。里面包含了几个目录及文件：assets: 放置一些图片，如logo等。components: 目录里面放了一个组件文件，可以不用。App.vue: 项目入口文件，我们也可以直接将组件写这里，而不使用 components 目录。main.js: 项目的核心文件。</td>
+</tr>
+<tr>
+<td style="text-align:center">static</td>
+<td style="text-align:center">静态资源目录，如图片、字体等。</td>
+</tr>
+<tr>
+<td style="text-align:center">test</td>
+<td style="text-align:center">初始测试目录，可删除</td>
+</tr>
+<tr>
+<td style="text-align:center">.xxxx文件</td>
+<td style="text-align:center">这些是一些配置文件，包括语法配置，git配置等。</td>
+</tr>
+<tr>
+<td style="text-align:center">index.html</td>
+<td style="text-align:center">首页入口文件，你可以添加一些 meta 信息或统计代码啥的。</td>
+</tr>
+<tr>
+<td style="text-align:center">package.json</td>
+<td style="text-align:center">项目配置文件。</td>
+</tr>
+<tr>
+<td style="text-align:center">README.md</td>
+<td style="text-align:center">项目的说明文档，markdown 格式</td>
+</tr>
+</tbody>
+</table>
 
 					
 				</div>
@@ -181,13 +228,13 @@
 
 		<ul class="am-pagination">
     
-    	<li class="am-pagination-prev">
-   		<a class="pull-left" href="/2018/11/25/Vue的学习/" title="Vue的学习_Day01">
-      		&laquo; 上一篇
+	
+		<li class="am-pagination-next">
+		<a class="pull-right" href="/2018/11/25/Vue的学习/" title="Vue的学习_Day01">
+			下一篇 &raquo;
 		</a>
 		</li>
-	
-	
+	 
  </ul>
         
 
@@ -275,7 +322,7 @@
 				
 				
 				<!--toc(post.content)-->
-				<ol class="post-toc"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#undefined"><span class="post-toc-text">致敬一下,每一個程序員都要寫的程序:)</span></a></li></ol>
+				<ol class="post-toc"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#undefined"><span class="post-toc-text">vue的基本目录结构</span></a></li></ol>
 			</nav>
 			<div class="post-toc-bar"><div>
 		</div></div></aside>
